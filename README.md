@@ -1,24 +1,36 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## A noter que :
+Je Me suis arrêté après avoir crée les Tags et le seed correspondant...
+Il était déjà trop tard...
 
-Things you may want to cover:
 
-* Ruby version
+* Ruby version : 2.7.1
 
-* System dependencies
+* Rails 5.2.4.2
 
-* Configuration
+Lancement :
 
-* Database creation
+Aller à la racine (freedoc chez moi) là ou se trouve le Gemfile
 
-* Database initialization
+$ bundle install
 
-* How to run the test suite
+au choix :
 
-* Services (job queues, cache servers, search engines, etc.)
+execution du seed.rb :
 
-* Deployment instructions
+$ rails db:seed
 
-* ...
+puis allez dans la console pour tester
+
+$ rails console
+
+
+
+###  A noter que mon Gemfile a été enrichi comme ci-dessous :
+# Gemfile adds 
+gem 'tzinfo-data', '>= 1.2016.7'
+
+# gem added specialy for this project 
+gem 'table_print'
+gem 'faker'
