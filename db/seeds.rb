@@ -31,3 +31,12 @@ end
 10.times do     #cree 10 tag
   Tag.create(title: "##{Faker::Games::Pokemon.name}")
 end
+
+
+10.times do
+  PrivateMessage.create!(content: Faker::Lorem.sentence, sender_id: User.all.sample.id, recipient_id: User.all.sample.id)
+end
+
+20.times do
+  TagGossip.create!(tag_id: Tag.all.sample.id, gossip_id: Gossip.all.sample.id)
+end

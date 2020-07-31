@@ -1,8 +1,8 @@
 # README
 
 ## A noter que :
-Je Me suis arrêté après avoir crée les Tags et le seed correspondant...
-Il était déjà trop tard...
+J'ai terminé... sauf les exo optionnels !
+Il était déjà très très tard... trop tard )o; ...
 
 
 * Ruby version : 2.7.1
